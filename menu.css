@@ -37,6 +37,37 @@ body {
   background-color: rgb(253, 253, 190);
   transition: all 1s ease;
   transform: translateX(0%);
+  overflow: scroll;
+  padding: 30px;
+}
+
+.closebtn {
+  text-align: center;
+}
+
+.cart-item {
+  margin: 20px 5px;
+}
+
+.cart-item button {
+  padding: 3px;
+  margin: 5px;
+  color: #ffbc0d;
+  background-color: rgba(255, 255, 255, 0.89);
+  border: 1.5px solid #ffbc0d;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cart-item .confirmOrderBtn {
+  color: #ffbc0d;
+  background-color: rgba(255, 255, 255, 0.89);
+  border: 2px solid #ffbc0d;
+  border-radius: 4px;
+  padding: 5px;
+  width: 130px;
+  font-size: 18px;
+  margin-top: 20px;
 }
 
 .closebtn .btn {
